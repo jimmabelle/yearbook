@@ -59,6 +59,7 @@ figure {
   text-align: center;
   background-color: #DAA520;
 }
+
 @media (min-width: 901px) and (max-width: 1000px) {
   .yearbook { padding: 10px; }
   .container { width: 100%; padding: 0;}
