@@ -59,15 +59,20 @@ figure {
   text-align: center;
   background-color: #DAA520;
 }
+@media (min-width: 901px) and (max-width: 1000px) {
+  .yearbook { padding: 10px; }
+  .container { width: 100%; padding: 0;}
+  figure { width: 28%;}
+}
 
 @media (min-width: 601px) and (max-width: 900px) {
   .yearbook { padding: 10px; }
   .container { width: 100%; }
-  figure { width: 25%;}
+  figure { width: 40%;}
 }
 
 @media (max-width: 600px) {
   .yearbook { padding: 5px; }
   .container { width: 100%; }
-  figure { width: 40%;}
+  figure { width: 100%;}
 }
